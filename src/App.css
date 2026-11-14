@@ -10,6 +10,7 @@
   --cor-destaque-hover: #8b5cf6;
   --cor-destaque-claro: #a78bfa;
   --cor-nota: #fbbf24;
+  --cor-favorito: #f43f5e;
 
   --espaco-p: 8px;
   --espaco-m: 16px;
@@ -223,6 +224,10 @@ a {
   color: var(--cor-texto);
   font-size: 1.125rem;
   cursor: pointer;
+}
+
+.botao-favoritar-ativo {
+  color: var(--cor-favorito);
 }
 
 .card-jogo-info {
